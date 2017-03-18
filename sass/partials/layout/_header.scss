@@ -13,7 +13,7 @@
 
     // logo media queries
     @media screen and (min-width: $from-full-to-noslogan){
-        .ts-no-slogan,
+        .ts-full,
         .ts-icon{
             display: none;
         }
@@ -48,7 +48,7 @@
         }
 
         .logo {
-            @include paddinghack(100%, 677.61096, 179.54858, "svg"); // use your logo dimensions here
+            @include paddinghack(100%, 877.61096, 179.54858, "svg"); // use your logo dimensions here
             position: absolute;
             top: 50%;
             left: 50%;
@@ -56,8 +56,8 @@
             transition: .3s all ease-in-out;
             height: 100px;
             display: block;
-            max-width: 500px;
-            width: 50%;
+            max-width: 1000px;
+            width: 40%;
         }
 
         .title{

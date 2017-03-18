@@ -18,4 +18,9 @@ gallery:
 This is a picture of an airplane
 
 
+<button id="close-image" onclick="location.href='http://www.paypal.com'"><img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/buy-logo-large.png"></button>
+
+
+
+
 {% include gallery_lightbox.html %}
